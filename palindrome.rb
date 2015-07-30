@@ -1,7 +1,8 @@
 def Palindrome(str)
 
   # code goes here
-  str.gsub!(' ','').downcase
+  str.gsub!(' ','')
+  str.downcase!
   
   
   
