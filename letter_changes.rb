@@ -1,0 +1,12 @@
+def LetterChanges(str)
+
+  # code goes here
+  
+  
+  return str.downcase.tr('a-y', 'b-z').tr('aeiou', 'AEIOU')
+         
+end
+   
+# keep this function call here 
+# to see how to enter arguments in Ruby scroll down   
+LetterChanges(STDIN.gets)           
